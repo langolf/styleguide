@@ -102,7 +102,7 @@ exports[`App generic tests When app is is unmounted 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Structure
@@ -131,7 +131,7 @@ exports[`App generic tests When app is is unmounted 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Components
@@ -284,7 +284,7 @@ exports[`App generic tests When app is open 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Structure
@@ -313,7 +313,7 @@ exports[`App generic tests When app is open 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Components
@@ -589,13 +589,13 @@ exports[`App search tests When we clear search request 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Structure
             </div>
             <div
-              className="sc-fznyAO fCHObm"
+              className="sc-fznyAO zWviA"
             >
               <div
                 className="sc-fznKkj kyEYOF"
@@ -742,7 +742,7 @@ exports[`App search tests When we clear search request 2`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Structure
@@ -771,7 +771,7 @@ exports[`App search tests When we clear search request 2`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Components
@@ -924,7 +924,7 @@ exports[`App search tests When we search, we have results filtered 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Structure
@@ -953,7 +953,7 @@ exports[`App search tests When we search, we have results filtered 1`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Components
@@ -1106,13 +1106,13 @@ exports[`App search tests When we search, we have results filtered 2`] = `
             className="sc-fzpans kfUgGk"
           >
             <div
-              className="sc-fzplWN gAoKva"
+              className="sc-fzplWN ipnAQQ"
               onClick={[Function]}
             >
               Structure
             </div>
             <div
-              className="sc-fznyAO fCHObm"
+              className="sc-fznyAO zWviA"
             >
               <div
                 className="sc-fznKkj kyEYOF"

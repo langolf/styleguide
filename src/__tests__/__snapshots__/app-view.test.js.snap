@@ -101,7 +101,7 @@ exports[`App-view generic tests When app is open 1`] = `
             className="kfUgGk"
           >
             <div
-              className="gAoKva"
+              className="ipnAQQ"
               onClick={[Function]}
             >
               Structure
@@ -130,7 +130,7 @@ exports[`App-view generic tests When app is open 1`] = `
             className="kfUgGk"
           >
             <div
-              className="gAoKva"
+              className="ipnAQQ"
               onClick={[Function]}
             >
               Components
@@ -405,6 +405,10 @@ exports[`App-view generic tests When component is open 1`] = `
   color: #000;
   font-size: 16px;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .c15 {
@@ -1614,6 +1618,10 @@ exports[`App-view generic tests When filter show components 1`] = `
   color: #000;
   font-size: 16px;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .c15 {
@@ -2403,6 +2411,10 @@ exports[`App-view generic tests When we open component from app 1`] = `
   color: #000;
   font-size: 16px;
   cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .c15 {
