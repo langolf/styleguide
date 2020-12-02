@@ -2,10 +2,10 @@
 
 exports[`App-view generic tests When app is open 1`] = `
 <div
-  className="hkVWyW"
+  className="app-view__AppViewBlock-eavtQy cxLttm"
 >
   <div
-    className="ka-daZu"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI sidebar-toggler__SidebarOpenIcon-dlLVyw gzKuvQ"
     onClick={[Function]}
   >
     <svg
@@ -19,7 +19,7 @@ exports[`App-view generic tests When app is open 1`] = `
     </svg>
   </div>
   <div
-    className="jQNUju"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI sidebar-toggler__SidebarCloseIcon-dgXHTq iDhcPO"
     onClick={[Function]}
   >
     <svg
@@ -33,13 +33,13 @@ exports[`App-view generic tests When app is open 1`] = `
     </svg>
   </div>
   <aside
-    className="ghZCyk gpUqoJ"
+    className="sidebar__SidebarBlock-jGzEfz iVMlmQ app-view__AppSidebar-kTTMtc dzNmim"
   >
     <div
-      className="bAYEhF"
+      className="sidebar__SidebarHeader-fvoXjN bqSKjH"
     >
       <div
-        className="fRIGFA"
+        className="sidebar__SidebarLogo-glTcAx bFebLU"
       >
         <svg
           viewBox="0 0 44 44"
@@ -58,23 +58,23 @@ exports[`App-view generic tests When app is open 1`] = `
         </svg>
       </div>
       <div
-        className="dmNaat"
+        className="sidebar__SidebarSearchField-fxnZm hEtTKV"
       >
         <div
-          className="dGMxCY"
+          className="search-field__SearchFieldBlock-bGJybC gqBHCj"
         >
           <input
             autoComplete="off"
-            className="bbmgcd"
+            className="search-field__SearchFieldInput-gNWiJt gEyuZP"
             placeholder="Search component name"
             type="text"
             value=""
           />
           <div
-            className="bYoXQE"
+            className="search-field__SearchFieldIcon-AMrXU dbjKYb"
           >
             <div
-              className="fLUlAF"
+              className="icon__IconBlock-bCeCJH cBUMOE"
               role="presentation"
               size={0}
             >
@@ -93,31 +93,31 @@ exports[`App-view generic tests When app is open 1`] = `
       </div>
     </div>
     <div
-      className="bGjjUF"
+      className="sidebar__SidebarNavigation-bLaEkw faODsJ"
     >
       <nav
-        className="cOizXc"
+        className="navigation__NavigationBlock-cfhNmD hLoRTR"
       >
         <div
-          className="kcSfKA"
+          className="navigation__NavigationSectionBlock-fZcnMm eZvwoH"
         >
           <div
-            className="bysjeh"
+            className="navigation-section__NavigationSectionBlock-dZjlwi iLnYzu"
           >
             <div
-              className="icSILq"
+              className="navigation-section__NavigationSectionName-kowQGE gota-dv"
               onClick={[Function]}
             >
               Structure
             </div>
             <div
-              className="ekTzlM"
+              className="navigation-section__NavigationSectionComponents-iJChPb hEMjsg"
             >
               <div
-                className="epqITX"
+                className="navigation-section__NavigationSectionComponentsItem-dXwuvS TomLe"
               >
                 <a
-                  className="iCkVVy"
+                  className="navigation-section__NavigationSectionComponentsItemLink-ljuXWa cVdsmA"
                   data-vrt-locator="link"
                   href="#Structure-Component"
                 >
@@ -128,25 +128,25 @@ exports[`App-view generic tests When app is open 1`] = `
           </div>
         </div>
         <div
-          className="kcSfKA"
+          className="navigation__NavigationSectionBlock-fZcnMm eZvwoH"
         >
           <div
-            className="bysjeh"
+            className="navigation-section__NavigationSectionBlock-dZjlwi iLnYzu"
           >
             <div
-              className="icSILq"
+              className="navigation-section__NavigationSectionName-kowQGE gota-dv"
               onClick={[Function]}
             >
               Components
             </div>
             <div
-              className="ekTzlM"
+              className="navigation-section__NavigationSectionComponents-iJChPb hEMjsg"
             >
               <div
-                className="epqITX"
+                className="navigation-section__NavigationSectionComponentsItem-dXwuvS TomLe"
               >
                 <a
-                  className="iCkVVy"
+                  className="navigation-section__NavigationSectionComponentsItemLink-ljuXWa cVdsmA"
                   data-vrt-locator="link"
                   href="#Components-ErrorBoundary"
                 >
@@ -160,22 +160,22 @@ exports[`App-view generic tests When app is open 1`] = `
     </div>
   </aside>
   <main
-    className="eylZKg"
+    className="app-view__Content-iceBke fTQZHB"
   >
     <article
-      className="eOfXW"
+      className="component__ComponentBlock-dOVVH bIwjKS"
       data-id="welcome!"
     >
       <header
         className="styleguide-component__header"
       >
         <h1
-          className="loeLYx"
+          className="component__ComponentTitle-bHenBi jcJBel"
         >
           Welcome!
         </h1>
         <div
-          className="gkFYkq"
+          className="component__ComponentDescription-eZfHWI dkrxtA"
         >
           Style guide is a tool to illustrate, sandbox and test your components.
         </div>
@@ -675,7 +675,7 @@ exports[`App-view generic tests When component is open 1`] = `
   className="c0"
 >
   <div
-    className="c1"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c1"
     onClick={[Function]}
   >
     <svg
@@ -689,7 +689,7 @@ exports[`App-view generic tests When component is open 1`] = `
     </svg>
   </div>
   <div
-    className="c2"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c2"
     onClick={[Function]}
   >
     <svg
@@ -1415,7 +1415,7 @@ exports[`App-view generic tests When filter doesn\`t show components 1`] = `
   className="c0"
 >
   <div
-    className="c1"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c1"
     onClick={[Function]}
   >
     <svg
@@ -1429,7 +1429,7 @@ exports[`App-view generic tests When filter doesn\`t show components 1`] = `
     </svg>
   </div>
   <div
-    className="c2"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c2"
     onClick={[Function]}
   >
     <svg
@@ -2015,7 +2015,7 @@ exports[`App-view generic tests When filter show components 1`] = `
   className="c0"
 >
   <div
-    className="c1"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c1"
     onClick={[Function]}
   >
     <svg
@@ -2029,7 +2029,7 @@ exports[`App-view generic tests When filter show components 1`] = `
     </svg>
   </div>
   <div
-    className="c2"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c2"
     onClick={[Function]}
   >
     <svg
@@ -2767,7 +2767,7 @@ exports[`App-view generic tests When we open component from app 1`] = `
   className="c0"
 >
   <div
-    className="c1"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c1"
     onClick={[Function]}
   >
     <svg
@@ -2781,7 +2781,7 @@ exports[`App-view generic tests When we open component from app 1`] = `
     </svg>
   </div>
   <div
-    className="c2"
+    className="sidebar-toggler__SidebarStyledToggler-cuxdwI c2"
     onClick={[Function]}
   >
     <svg
