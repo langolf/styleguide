@@ -5,6 +5,7 @@ const { isDebug, buildDir } = require('./build-arguments');
 const getBabelOptions = require('./get-babel-options');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const isCompiling = (buildDir) => {
     const hasPath = buildDir === '' || Boolean(buildDir);
@@ -221,6 +222,14 @@ module.exports = function getWebpackConfig({
             alias: {
                 __GLOBAL__CONFIG__: configPath,
                 'react-dom': '@hot-loader/react-dom',
+                '@': path.resolve(__dirname, './src/'),
+                // We don't want to mock while using Styleguide. VRT only
+                ...(Boolean(buildDir) && {
+                    'react-transition-group': path.resolve(
+                        __dirname,
+                        'mocks/react-transition-group'
+                    ),
+                }),
             },
         },
         resolveLoader: {
@@ -228,6 +237,11 @@ module.exports = function getWebpackConfig({
         },
         plugins: [
             new HtmlWebpackPlugin({ title: 'Frontend Styleguide' }),
+            new BundleAnalyzerPlugin({
+                openAnalyzer: false,
+                analyzerMode: 'static',
+                reportFilename: `anal.html`,
+            }),
             new webpack.NamedModulesPlugin(),
             new webpack.HotModuleReplacementPlugin(),
             new webpack.DefinePlugin({
